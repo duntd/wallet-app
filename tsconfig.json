@@ -1,0 +1,29 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-native",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "strict": true,
+    // Path alias config
+    "types": ["react-native", "jest", "node"],
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "skipLibCheck": false,
+    "resolveJsonModule": true,
+
+    "paths": {
+      // This needs to be mirrored in babel.config.js
+      // Components is a directory with sub directories
+      // "components": ["src/components/index"],
+      // "utils": ["src/utils/index"],
+      // "hooks": ["src/hooks/index"],
+      "const": ["constants/index"]
+
+      // We want to expose the exports of the buttons index file
+      //"buttons": ["components/buttons/index"]
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "base",
+  "name": "walletapp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -15,10 +15,10 @@
     "pod": "cd ios && pod install --repo-update && cd ..",
     "rename": "npx react-native-rename 'walletapp' -b 'com.dun.walletapp'",
     "asset": "npx react-native-asset",
-    "cp:ios:stag": "appcenter codepush release-react -a duntd.dev-gmail.com/Base -d Staging",
-    "cp:ios:prod": "appcenter codepush release-react -a duntd.dev-gmail.com/Base -d Production",
-    "cp:android:stag": "appcenter codepush release-react -a duntd.dev-gmail.com/Base -d Staging",
-    "cp:android:prod": "appcenter codepush release-react -a duntd.dev-gmail.com/Base -d Staging"
+    "cp:ios:stag": "appcenter codepush release-react -a duntd.dev-gmail.com/walletapp -d Staging",
+    "cp:ios:prod": "appcenter codepush release-react -a duntd.dev-gmail.com/walletapp -d Production",
+    "cp:android:stag": "appcenter codepush release-react -a duntd.dev-gmail.com/walletapp -d Staging",
+    "cp:android:prod": "appcenter codepush release-react -a duntd.dev-gmail.com/walletapp -d Staging"
   },
   "dependencies": {
     "@notifee/react-native": "^7.8.2",

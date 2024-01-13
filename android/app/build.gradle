@@ -74,9 +74,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.rndiffapp"
+    namespace "com.dun.walletapp"
     defaultConfig {
-        applicationId "com.rndiffapp"
+        applicationId "com.dun.walletapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

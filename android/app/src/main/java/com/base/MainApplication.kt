@@ -1,4 +1,4 @@
-package com.base
+package com.dun.walletapp
 
 import android.app.Application
 import com.facebook.react.PackageList

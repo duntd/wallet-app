@@ -1,4 +1,4 @@
-package com.base
+package com.dun.walletapp
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

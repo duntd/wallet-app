@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Literata-Regular.ttf",
+      "sha1": "de07ce785d2ae327f18f9e896c0fe574017423cf"
+    },
+    {
+      "path": "assets/fonts/ReemKufiInk-Regular.ttf",
+      "sha1": "51c40bef60ae67901ca676dd7756511f661f9456"
+    }
+  ]
+}

@@ -1162,7 +1162,7 @@ PODS:
     - FirebaseCoreExtension (= 10.19.0)
     - React-Core
     - RNFBApp
-  - RNGestureHandler (2.14.0):
+  - RNGestureHandler (2.14.1):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -1496,7 +1496,7 @@ SPEC CHECKSUMS:
   RNDateTimePicker: fc2e4f2795877d45e84d85659bebe627eba5c931
   RNFBApp: 5ee688b07ed0fa692a3a8fd07df6d6ae41e4c3a0
   RNFBMessaging: c839473d12cbe1b042b29898177033de4214e932
-  RNGestureHandler: a426f2b9134a10ac56ff78593fb068541e68f0e7
+  RNGestureHandler: 28bdf9a766c081e603120f79e925b72817c751c6
   RNNotifee: 8e2d3df3f0e9ce8f5d1fe4c967431138190b6175
   RNReanimated: 9fc2b08ed365d7dc451bc451605d89c01f2c935b
   RNScreens: 2b73f5eb2ac5d94fbd61fa4be0bfebd345716825
@@ -1506,6 +1506,6 @@ SPEC CHECKSUMS:
   TweetNacl: 3abf4d1d2082b0114e7a67410e300892448951e6
   Yoga: 13c8ef87792450193e117976337b8527b49e8c03
 
-PODFILE CHECKSUM: 7b778d9cd774896f83747cde64f37ac530ef2ab8
+PODFILE CHECKSUM: f2623184f791de3146de6249417288db83e0bd78
 
 COCOAPODS: 1.14.3

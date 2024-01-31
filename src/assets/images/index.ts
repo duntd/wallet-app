@@ -3,4 +3,5 @@ export const Images = {
   logo: require('./logo.png'),
   box: require('./box.png'),
   app_logo: require('./app_logo.jpg'),
+  couple: require('./couple.png'),
 };

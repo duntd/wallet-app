@@ -9,3 +9,4 @@ export * from './useCamera';
 export * from './useModal';
 export * from './usePusher';
 export * from './useCodePush';
+export * from './useDateTimer';

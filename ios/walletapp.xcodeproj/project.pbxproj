@@ -11,9 +11,11 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7EB2F4F2D8C0EA1564A9FCDA /* Pods_base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD301AC9CE0A8AA0E34ED5D /* Pods_base.framework */; };
+		2797107F17FDF6D2D8314ACD /* Pods_walletapp_walletappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FFB31C60BFEFF27A51FF36 /* Pods_walletapp_walletappTests.framework */; };
+		46C7E2E1C2D16D182CB5319F /* Pods_walletapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602DB22884A40A434DF4AFF2 /* Pods_walletapp.framework */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		89B7E32FAE74E98AC5F6C5ED /* Pods_base_baseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016367027102C73FBD3D2556 /* Pods_base_baseTests.framework */; };
+		9B2B62DDEB1B43A18795BFFF /* ReemKufiInk-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E422C92CA07F4ED2A1DFF603 /* ReemKufiInk-Regular.ttf */; };
+		13623197F82B4FBCB2BD9127 /* Literata-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57BD6A95923F41E191887DA4 /* Literata-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,28 +24,30 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = "walletapp";
+			remoteInfo = walletapp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* walletappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "walletappTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* walletappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = walletappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* walletappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "walletappTests.m"; sourceTree = "<group>"; };
-		016367027102C73FBD3D2556 /* Pods_base_baseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_base_baseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* walletapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "walletapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "walletapp/AppDelegate.h"; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "walletapp/AppDelegate.mm"; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "walletapp/Images.xcassets"; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "walletapp/Info.plist"; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "walletapp/main.m"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* walletappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = walletappTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* walletapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = walletapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = walletapp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = walletapp/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = walletapp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = walletapp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = walletapp/main.m; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-walletapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walletapp.debug.xcconfig"; path = "Target Support Files/Pods-walletapp/Pods-walletapp.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-walletapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walletapp.release.xcconfig"; path = "Target Support Files/Pods-walletapp/Pods-walletapp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-walletapp-walletappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walletapp-walletappTests.debug.xcconfig"; path = "Target Support Files/Pods-walletapp-walletappTests/Pods-walletapp-walletappTests.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "walletapp/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		602DB22884A40A434DF4AFF2 /* Pods_walletapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_walletapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = walletapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-walletapp-walletappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walletapp-walletappTests.release.xcconfig"; path = "Target Support Files/Pods-walletapp-walletappTests/Pods-walletapp-walletappTests.release.xcconfig"; sourceTree = "<group>"; };
-		8BD301AC9CE0A8AA0E34ED5D /* Pods_base.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_base.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FFB31C60BFEFF27A51FF36 /* Pods_walletapp_walletappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_walletapp_walletappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		E422C92CA07F4ED2A1DFF603 /* ReemKufiInk-Regular.ttf */ = {isa = PBXFileReference; name = "ReemKufiInk-Regular.ttf"; path = "../assets/fonts/ReemKufiInk-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		57BD6A95923F41E191887DA4 /* Literata-Regular.ttf */ = {isa = PBXFileReference; name = "Literata-Regular.ttf"; path = "../assets/fonts/Literata-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89B7E32FAE74E98AC5F6C5ED /* Pods_base_baseTests.framework in Frameworks */,
+				2797107F17FDF6D2D8314ACD /* Pods_walletapp_walletappTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EB2F4F2D8C0EA1564A9FCDA /* Pods_base.framework in Frameworks */,
+				46C7E2E1C2D16D182CB5319F /* Pods_walletapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +76,7 @@
 				00E356F21AD99517003FC87E /* walletappTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = "walletappTests";
+			path = walletappTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -93,15 +97,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = "walletapp";
+			name = walletapp;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				8BD301AC9CE0A8AA0E34ED5D /* Pods_base.framework */,
-				016367027102C73FBD3D2556 /* Pods_base_baseTests.framework */,
+				602DB22884A40A434DF4AFF2 /* Pods_walletapp.framework */,
+				A4FFB31C60BFEFF27A51FF36 /* Pods_walletapp_walletappTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,6 +126,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				EAB77DA3E3504B90958F34F2 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -148,6 +153,16 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		EAB77DA3E3504B90958F34F2 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				E422C92CA07F4ED2A1DFF603 /* ReemKufiInk-Regular.ttf */,
+				57BD6A95923F41E191887DA4 /* Literata-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,8 +182,8 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = "walletappTests";
-			productname = "walletappTests";
+			name = walletappTests;
+			productName = walletappTests;
 			productReference = 00E356EE1AD99517003FC87E /* walletappTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -190,8 +205,8 @@
 			);
 			dependencies = (
 			);
-			name = "walletapp";
-			productName = "walletapp";
+			name = walletapp;
+			productName = walletapp;
 			productReference = 13B07F961A680F5B00A75B9A /* walletapp.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -246,6 +261,8 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				9B2B62DDEB1B43A18795BFFF /* ReemKufiInk-Regular.ttf in Resources */,
+				13623197F82B4FBCB2BD9127 /* Literata-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,7 +470,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "walletappTests/Info.plist";
+				INFOPLIST_FILE = walletappTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -465,7 +482,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dun.walletapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dun.walletapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/walletapp.app/walletapp";
 			};
@@ -478,7 +495,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = "walletappTests/Info.plist";
+				INFOPLIST_FILE = walletappTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -490,7 +507,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dun.walletapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dun.walletapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/walletapp.app/walletapp";
 			};
@@ -506,8 +523,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "walletapp/Info.plist";
-             INFOPLIST_KEY_CFBundleDisplayName = "walletapp";
+				INFOPLIST_FILE = walletapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = walletapp;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -518,8 +535,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dun.walletapp";
-				PRODUCT_NAME = "walletapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dun.walletapp;
+				PRODUCT_NAME = walletapp;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -535,8 +552,8 @@
 				CODEPUSH_KEY = rrEd6cZkMNR_0HZw4qbM578Fn1hux6yVwgkfv;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "walletapp/Info.plist";
-             INFOPLIST_KEY_CFBundleDisplayName = "walletapp";
+				INFOPLIST_FILE = walletapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = walletapp;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -547,8 +564,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dun.walletapp";
-				PRODUCT_NAME = "walletapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dun.walletapp;
+				PRODUCT_NAME = walletapp;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

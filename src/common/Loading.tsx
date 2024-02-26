@@ -62,7 +62,7 @@ const Ring = ({delay}: {delay: number}) => {
         {
           position: 'absolute',
           ...size(45, 45),
-          backgroundColor: Colors.P5,
+          backgroundColor: Colors.P400,
           borderRadius: 100,
         },
         delay ? ringStyle : {},
@@ -126,7 +126,7 @@ const LoadingToast: React.FC<CircularProgressProps> = props => {
             }}
           />
           <AnimatedCircle
-            stroke={Colors.P3}
+            stroke={Colors.P300}
             fill="none"
             strokeDasharray={`${circumference}, ${circumference}`}
             {...{
@@ -163,7 +163,7 @@ const styles = StyleSheet.create({
   },
   logoContainer: {
     position: 'absolute',
-    backgroundColor: Colors.P1,
+    backgroundColor: Colors.P100,
     borderRadius: height(50),
   },
 });

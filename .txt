@@ -1,0 +1,6 @@
+
+#To fix android build issue.
+./android/gradlew clean
+rm -rf android/.gradle android/.idea android/app/build android/build
+rm -rf package-lock.json yarn.lock node_modules
+yarn   # or `npm i`

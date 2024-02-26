@@ -5,7 +5,8 @@ import {
   responsiveWidth,
 } from 'react-native-responsive-dimensions';
 
-const {width: SCREEN_WIDTH, height: SCREEN_HEIGHT} = Dimensions.get('window');
+export const {width: SCREEN_WIDTH, height: SCREEN_HEIGHT} =
+  Dimensions.get('window');
 
 export let screenInsets = {
   top: 0,

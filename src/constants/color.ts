@@ -3,12 +3,12 @@ export const enum Colors {
   BLACK = '#000',
   BLUR = 'rgba(0,0,0,0.5)',
   //Primary as P
-  P1 = '#F2F6EC',
-  P2 = '#E4ECD9',
-  P3 = '#C9D9B2',
-  P4 = '#AFC68C',
-  P5 = '#94B365',
-  P6 = '#79A03F',
+  P50 = '#ede7f6',
+  P100 = '#d0c3e8',
+  P200 = '#b19cd9',
+  P300 = '#9374cb',
+  P400 = '#7b55c0',
+  P500 = '#6438b4',
 
   //Neutral as N
   N1 = '#FFFFFF',
@@ -23,13 +23,19 @@ export const enum Colors {
   BLUE1 = '#E8F2FE',
   BLUE5 = '#1676F3',
 
+  //Green
+  GREEN100 = '#B9F6CA',
+  GREEN200 = '#69F0AE',
+  GREEN400 = '#00E676',
+
   //Pink
   PINK1 = '#FDF2F8',
   PINK5 = '#EC4699',
 
   //Red
-  RED1 = '#FFEEEE',
-  RED5 = '#F64D4D',
+  RED100 = '#FF8A80',
+  RED200 = '#FF5252',
+  RED400 = '#FF1744',
 
   //Yellow
   YELLOW1 = '#FEF8E2',

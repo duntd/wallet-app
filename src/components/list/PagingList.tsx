@@ -52,7 +52,6 @@ const PagingList: React.FC<Props> = props => {
   };
 
   useEffect(() => {
-    console.log({query});
     const change = !_.isEqual(ref.current, query);
     if (change) {
       setTimeout(() => {
@@ -69,7 +68,7 @@ const PagingList: React.FC<Props> = props => {
 
   const renderFooter = () => (
     <View style={{height: height(300), ...padding(24, 0, 0, 0)}}>
-      {props.fetching && <ActivityIndicator size="large" color={Colors.P6} />}
+      {props.fetching && <ActivityIndicator size="large" color={Colors.P500} />}
     </View>
   );
 
@@ -81,7 +80,7 @@ const PagingList: React.FC<Props> = props => {
           <Row paddingHorizontal={width(16)}>
             <Text style={Font.f14}>
               Kết quả{' '}
-              <Text style={[Font.f16, {color: Colors.P6}]}>
+              <Text style={[Font.f16, {color: Colors.P500}]}>
                 {`(${props.data?.length ?? 0})`}
               </Text>
             </Text>
@@ -90,7 +89,6 @@ const PagingList: React.FC<Props> = props => {
         </View>
       )}
       <FlatList
-        {...props}
         onEndReached={() => {
           if (EventUtil.listeners.apiList.length > 0) {
             return;
@@ -109,6 +107,7 @@ const PagingList: React.FC<Props> = props => {
         ItemSeparatorComponent={() => (
           <Spacing width={'100%'} height={1} bg={Colors.N3} />
         )}
+        {...props}
       />
     </Container>
   );

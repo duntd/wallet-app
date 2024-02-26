@@ -4,6 +4,7 @@ import {Auth} from 'auth/routes';
 import NavigationTab from 'common/NavigationTab';
 import Splash from 'common/Splash';
 import {AdminStack} from 'features/admin/routes';
+import {AppStack} from 'features/root/routes';
 import {navigationRef} from 'utils';
 
 const Stack = createStackNavigator();
@@ -22,7 +23,8 @@ const DEFAULT_OPTIONS = {
 const App = () => {
   return (
     <Stack.Navigator screenOptions={DEFAULT_OPTIONS}>
-      <Stack.Screen name="Navigation Tabs" component={NavigationTab} />
+      {/* <Stack.Screen name="Navigation Tabs" component={NavigationTab} /> */}
+      {AppStack()}
       {AdminStack()}
     </Stack.Navigator>
   );
@@ -33,7 +35,7 @@ const Root = () => {
     <NavigationContainer ref={navigationRef}>
       <Stack.Navigator
         screenOptions={DEFAULT_OPTIONS}
-        initialRouteName={ROOT.SPLASH}>
+        initialRouteName={ROOT.APP}>
         <Stack.Screen name={ROOT.SPLASH} component={Splash} />
         <Stack.Screen name={ROOT.AUTH} component={Auth} />
         <Stack.Screen name={ROOT.APP} component={App} />

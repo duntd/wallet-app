@@ -9,7 +9,7 @@ import codePush from 'react-native-code-push';
 import {usePusher} from 'hooks';
 
 const App = (): React.JSX.Element => {
-  //useCodePush();
+  useCodePush();
   usePusher();
 
   return (

@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">walletapp</string>
-    <string moduleConfig="true" name="CodePushDeploymentKey">e2f8fa46-9803-4919-9632-2a494e601480</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">Du-k4gDCb1A4d8L29Ny7aKnpNK8om31Yla_Dq</string>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
+    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
 </resources>

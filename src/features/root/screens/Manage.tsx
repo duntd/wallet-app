@@ -4,7 +4,7 @@ import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {SCREEN_HEIGHT, SCREEN_WIDTH, padding} from 'utils';
 import {Asset} from '../assets';
 import {HomeButton} from '../components';
-import {Image} from 'expo-image';
+import FastImage from 'react-native-fast-image';
 
 export const Manage = () => {
   const inset = useSafeAreaInsets();
@@ -12,13 +12,9 @@ export const Manage = () => {
   return (
     <Container>
       <Container position="absolute">
-        <Image
-          style={{width: SCREEN_WIDTH, height: SCREEN_HEIGHT}}
+        <FastImage
+          style={{width: SCREEN_WIDTH, height: SCREEN_HEIGHT + 50}}
           source={Asset.bgRight}
-          transition={0}
-          cachePolicy={'memory-disk'}
-          priority={'high'}
-          placeholder={Asset.bgRight}
         />
       </Container>
     </Container>

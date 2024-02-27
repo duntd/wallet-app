@@ -4,8 +4,8 @@ import {SCREEN_HEIGHT, SCREEN_WIDTH, padding} from 'utils';
 import {Asset} from '../assets';
 import {HomeButton} from '../components';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
-import {Image} from 'expo-image';
 import FluctuationList from '../components/FluctuationList';
+import FastImage from 'react-native-fast-image';
 
 export const Home = () => {
   const inset = useSafeAreaInsets();
@@ -14,13 +14,9 @@ export const Home = () => {
   return (
     <Container>
       <Container position="absolute">
-        <Image
-          style={{width: SCREEN_WIDTH, height: SCREEN_HEIGHT}}
+        <FastImage
+          style={{width: SCREEN_WIDTH, height: SCREEN_HEIGHT + 50}}
           source={Asset.bg}
-          transition={0}
-          cachePolicy={'memory-disk'}
-          priority={'high'}
-          placeholder={Asset.bg}
         />
       </Container>
 
@@ -29,7 +25,7 @@ export const Home = () => {
           <HomeButton />
         </Container>
 
-        <Container {...padding(70, 0, 0, 0)}>
+        <Container {...padding(110, 0, 0, 0)}>
           <FluctuationList />
         </Container>
       </Container>

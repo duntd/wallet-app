@@ -2,7 +2,7 @@ import {AppText, Column, Row} from 'components';
 import {Fluctuation} from '../types/fluctuation';
 import {Colors} from 'const';
 import {DateUtil, borderRadius, margin, padding, width} from 'utils';
-import {Image} from 'expo-image';
+import FastImage from 'react-native-fast-image';
 import {Asset} from 'features/root/assets';
 
 type Props = {
@@ -36,7 +36,7 @@ export const FluctuationItem = ({fluctuation}: Props) => {
       opacity={0.85}
       alignSelf="center">
       <Row>
-        <Image source={isUp ? Asset.chartUp : Asset.chartDown} />
+        <FastImage source={isUp ? Asset.chartUp : Asset.chartDown} />
         <AppText flex={1} f14_bold {...margin(0, 0, 10, 6)}>
           {fluctuation.name}
         </AppText>

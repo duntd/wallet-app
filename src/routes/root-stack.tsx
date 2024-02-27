@@ -35,7 +35,7 @@ const Root = () => {
     <NavigationContainer ref={navigationRef}>
       <Stack.Navigator
         screenOptions={DEFAULT_OPTIONS}
-        initialRouteName={ROOT.APP}>
+        initialRouteName={ROOT.AUTH}>
         <Stack.Screen name={ROOT.SPLASH} component={Splash} />
         <Stack.Screen name={ROOT.AUTH} component={Auth} />
         <Stack.Screen name={ROOT.APP} component={App} />

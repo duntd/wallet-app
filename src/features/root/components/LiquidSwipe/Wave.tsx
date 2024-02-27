@@ -1,5 +1,4 @@
 import MaskedView from '@react-native-masked-view/masked-view';
-import {Colors} from 'const';
 import React, {ReactElement} from 'react';
 import {Dimensions, Platform, StyleSheet, View} from 'react-native';
 import Animated, {
@@ -13,10 +12,11 @@ import Animated, {
 } from 'react-native-reanimated';
 import {Vector} from 'react-native-redash';
 import Svg, {Path} from 'react-native-svg';
+import {width} from 'utils';
 
 export const {width: WIDTH, height: HEIGHT} = Dimensions.get('screen');
 export const MIN_LEDGE = 5;
-export const MARGIN_WIDTH = MIN_LEDGE + 40;
+export const MARGIN_WIDTH = MIN_LEDGE + width(50);
 
 const AnimatedPath = Animated.createAnimatedComponent(Path);
 
@@ -108,9 +108,7 @@ const Wave = ({
         },
       ]}>
       <AnimatedPath
-        fill={
-          Platform.OS === 'android' ? children.props.slide?.color : Colors.P100
-        }
+        fill={Platform.OS === 'android' ? 'rgba(237,231,246,0.4)' : 'black'}
         animatedProps={animatedProps}
       />
     </Svg>
